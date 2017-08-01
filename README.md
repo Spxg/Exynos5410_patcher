@@ -1,5 +1,5 @@
 # Exynos5410_patcher
-# 一个简化打patch步骤的的脚本，试用于三星S4(exynos5410)的cm14的机型
+* 一个简化打patch步骤的的脚本，试用于三星S4(exynos5410)的cm14的机型
 * patch文件来自于Alberto96：https://github.com/exynos5410
 
 # 步骤
