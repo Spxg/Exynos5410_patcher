@@ -3,7 +3,7 @@
 # Apply these patches before compilation:
 
 ROM_TREE=$PWD
-PATCHER_PATH=$ROM_TREE/patcher
+PATCHER_PATH=$ROM_TREE/Exynos5410_patcher
 PATCH=$PATCHER_PATH/exynos5410
 
 
