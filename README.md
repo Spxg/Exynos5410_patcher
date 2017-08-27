@@ -15,5 +15,5 @@
 
 * unpatch在源码目录输入
    ```sh
-   ./Exynos5410_patcher/unpatch.sh
+   bash Exynos5410_patcher/unpatch.sh
    ```
