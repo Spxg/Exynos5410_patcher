@@ -7,8 +7,13 @@
    ```sh
    git clone https://github.com/Spxg/Exynos5410_patcher.git
    ```
-* 在源码目录输入
+* patch在源码目录输入
    ```sh
    ./Exynos5410_patcher/patch.sh
    ```
 * Enjoy
+
+* unatch在源码目录输入
+   ```sh
+   ./Exynos5410_patcher/unpatch.sh
+   ```
