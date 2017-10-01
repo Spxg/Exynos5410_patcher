@@ -25,6 +25,4 @@ cd $ROM_TREE/system/core
 git am $PATCH/core.patch
 
 
-### Ja3gduosctc kernel config
-cd ../..
-cp -R $PATCH/lineageos_ja3gduosctc_defconfig  $PWD/kernel/samsung/exynos5410/arch/arm/configs/
+
