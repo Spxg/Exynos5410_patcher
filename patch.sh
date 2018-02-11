@@ -10,10 +10,10 @@ PATCH=$PATCHER_PATH/exynos5410
 
 ### Exynos5410's patches
 cd $ROM_TREE/bootable/recovery-twrp
-git fetch https://gerrit.omnirom.org/android_bootable_recovery refs/changes/96/22096/3 && git cherry-pick FETCH_HEAD
+git fetch https://gerrit.omnirom.org/android_bootable_recovery refs/changes/96/22096/11 && git cherry-pick FETCH_HEAD
 
 cd $ROM_TREE/frameworks/base
-git fetch https://review.lineageos.org/LineageOS/android_frameworks_base refs/changes/45/169945/2 && git cherry-pick FETCH_HEAD
+git fetch https://github.com/LineageOS/android_frameworks_base refs/changes/45/169945/2 && git cherry-pick FETCH_HEAD
 
 cd $ROM_TREE/external/libselinux
 git am $PATCH/libselinux.patch
